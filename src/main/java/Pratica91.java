@@ -15,9 +15,9 @@ public class Pratica91 {
         
         Runtime rt = Runtime.getRuntime();
         System.out.println("Numeros de processadores: "+rt.availableProcessors());
-        System.out.println("Memoria total: "+(rt.totalMemory()/1024)/1024);
-        System.out.println("Memoria livre: "+(rt.freeMemory()/1024)/1024);
-        System.out.println("Memoria maxima utilizada pela maquina virtual: "+rt.maxMemory()/1024/1024);
+        System.out.println("Memoria total: "+rt.totalMemory()/(1024*1024));
+        System.out.println("Memoria livre: "+rt.freeMemory()/(1024*1024));
+        System.out.println("Memoria maxima utilizada pela maquina virtual: "+rt.maxMemory()/(1024*1024));
         
     }
     
